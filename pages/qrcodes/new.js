@@ -10,7 +10,7 @@ export default function QRCodeCreatePage() {
   const router = useRouter();
   const handleSubmit = async (values) => {
     await axios.post("/qrcodes/", values);
-    router.push("/qrcodes/");
+    router.push("/qrcodes");
   };
 
   return (
