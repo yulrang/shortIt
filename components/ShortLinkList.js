@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import styles from './ShortLinkList.module.css';
-import formatDate from '@/lib/formatDate';
-import calendarIcon from '@/public/calendar.svg';
-import linkIcon from '@/public/link.svg';
-import replyIcon from '@/public/reply.svg';
-import Card from './Card';
-import Button from './Button';
-import Link from './Link';
+import Image from "next/image";
+import styles from "./ShortLinkList.module.css";
+import formatDate from "@/lib/formatDate";
+import calendarIcon from "@/public/calendar.svg";
+import linkIcon from "@/public/link.svg";
+import replyIcon from "@/public/reply.svg";
+import Card from "./Card";
+import Button from "./Button";
+import Link from "./Link";
 
 function ShortLinkItem({ value, onDelete }) {
   function handleDelete() {
