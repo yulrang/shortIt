@@ -1,3 +1,5 @@
+"use client";
+
 import ShortLinkForm from "@/components/ShortLinkForm";
 import axios from "@/lib/axios";
 import styles from "@/styles/ShortLinkCreatePage.module.css";
