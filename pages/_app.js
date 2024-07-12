@@ -5,6 +5,7 @@ import styles from '@/styles/App.module.css';
 import '@/styles/global.css';
 import Link from '@/components/Link';
 import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const notoSansKR = Noto_Sans_KR({
   weight: ['400', '500'],
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Shortit</title>
+        <GoogleAnalytics gaId="G-WSY63ER1YV" />
       </Head>
       <div className={`${styles.app} ${notoSansKR.className}`}>
         <header className={styles.header}>
